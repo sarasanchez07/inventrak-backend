@@ -1,0 +1,37 @@
+# Entorno virtual
+venv/
+
+# Variables de entorno
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Base de datos local (solo SQLite, por si alguien la usa)
+db.sqlite3
+
+# Logs
+*.log
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Media y static generados
+media/
+staticfiles/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# IDEs
+.idea/
+.vscode/
+
+# Tests cache
+.pytest_cache/
+.coverage
+htmlcov/
